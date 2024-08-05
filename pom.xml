@@ -147,6 +147,7 @@
       </dependency>
      
       
+
       <dependency>
           <groupId>mysql</groupId>
           <artifactId>mysql-connector-java</artifactId>
@@ -292,6 +293,11 @@
                     <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
             </plugin>
+            <plugin>
+  	<groupId>org.apache.maven.plugins</groupId>
+  	<artifactId>maven-war-plugin</artifactId>
+  	<version>3.3.2</version>
+	</plugin>
         </plugins>
     </build>
     
@@ -302,4 +308,5 @@
            <url>http://mesir.googlecode.com/svn/trunk/mavenrepo</url>
        </repository>
       </repositories>    
+      
 </project>
